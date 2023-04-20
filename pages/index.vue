@@ -36,7 +36,7 @@ function newDoc() {
   </div>
   <footer>
     <a class="moche" href="/test">Copyright © Discords.ca</a>
-    <a class="moche">Contact © Contact@discords.ca</a>
+    <a class="moche">Contact @ Contact@discords.ca</a>
   </footer>
  
 </template>
