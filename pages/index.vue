@@ -17,9 +17,9 @@ function newDoc() {
           <img src="../image/Vector.svg">
         </a>
       <div class="navbar-menu" id="navbarMenu">
-          <a class="navbar-item" href="./about">About</a>
-          <a class="navbar-item" href="/partner">Partner</a>
-          <a class="navbar-item" href="/bot">bot</a>
+       <!-- <a class="navbar-item" href="./about">About</a>
+      <a class="navbar-item" href="/partner">Partner</a>
+        <a class="navbar-item" href="/bot">bot</a>--> 
           
       </div>
       </div>
@@ -29,8 +29,7 @@ function newDoc() {
           <h1 class="title"> Welcome</h1>
           <div class="middle-box">
             <h1>What's discords.ca ?</h1>
-            <h2>Discords.ca is a simple website with no real purpose. simply made by young dev because he had some time to waste! hope you'll like it !
-            </h2>
+            <h2>Discords.ca is a simple website with no real purpose. simply made by young dev because he had some time to waste! hope you'll like it ! I also have a <a href="https://discord.gg/Fy4EwEJCpV">discord server called Pro's & co</a> if you want to take a look</h2>
           </div>
     </div>
   </div>
@@ -63,7 +62,7 @@ function newDoc() {
 
 .navbar-item {
   position: relative;
-  left: 10%;
+  left: 40%;
   font-size: 35px;
   color: #ffffff;
   margin-right: 2rem;
@@ -172,6 +171,15 @@ border-radius: 13px;
   color: #FFFFFF;
 }
 
+a{
+  color:#dce3ec;
+  transition: 0.2s;
+
+}
+
+a:hover{
+  color:#579cf7;
+}
 
 
 @media (max-width: 576px){

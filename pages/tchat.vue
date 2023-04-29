@@ -1,33 +1,47 @@
 <template>
     <div>
+      <h1>Instant Messaging Webpage</h1>
+      
       <form @submit.prevent="sendMessage">
-        <label for="message">Type your message:</label>
-        <input type="text" id="message" v-model="newMessage" />
+        <input type="text" v-model="newMessage" />
         <button type="submit">Send</button>
       </form>
-  
-      <h2>Messages:</h2>
-      <ul>
-        <li v-for="(message, index) in messages" :key="index">{{ message }}</li>
-      </ul>
+      <div v-for="message in messages" :key="message.id">
+        {{ message }}
+      </div>
     </div>
   </template>
   
-  <script lang="js">
+  <script>
+  import io from 'socket.io-client'
+  
   export default {
     data() {
       return {
         messages: [],
-        newMessage: "",
-      };
+        newMessage: '',
+        socket: null,
+      }
     },
-  
+
+    mounted() {
+      this.socket = io('http://localhost:3000')
+      this.socket.on('connect', () => {
+        console.log('Connected to server')
+      })
+      this.socket.on('new-message', (message) => {
+        this.messages.push(message)
+      })
+    },
     methods: {
       sendMessage() {
-        this.messages.push(this.newMessage);
-        this.newMessage = "";
+        this.socket.emit('new-message', this.newMessage)
+        //io.socket.emit('new-message', this.newMessage)
+        this.messages.push(this.newMessage)
+        this.newMessage = ''
       },
     },
-  };
+
+  }
   </script>
   
