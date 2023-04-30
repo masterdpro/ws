@@ -265,10 +265,57 @@ a:hover{
   width: 100%;
   height: 112px;
   left: 0px;
-  top: 109vh;
+  top: -1vh;
   background: #3C4048;
   border-radius: 13px;
   }
+
+  .middle-box{
+  position: absolute;
+  top: 55%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  width: 55vh;
+  height: 40vh;
+  opacity: 0.9;
+  background: #27282b;
+  border-radius: 26px;
+}
+
+.middle-box h2{
+  position: absolute;
+  top: 30%;
+  left: 1%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight:10;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.middle-box h1{
+  position: relative;
+  top: 5%;
+  left: 10%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+a{
+  color:#dce3ec;
+  transition: 0.2s;
+
+}
+
+a:hover{
+  color:#579cf7;
+}
+
   
 }
 </style>
