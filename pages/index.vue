@@ -201,7 +201,7 @@ a:hover{
   }
   .navbar-item{
     position: relative;
-    left: 10%;
+    left: 40%;
     font-size: 35px;
     color: #ffffff;
     margin-right: 2rem;
@@ -256,9 +256,9 @@ a:hover{
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: bold;
-    text-align: center;
-    position: absolute;
-    left: 14vh;
+    position: relative;
+    left: 0vh;
+    top: 20vh;
   }
   footer{
     position: relative;
@@ -291,18 +291,18 @@ a:hover{
   margin-left: 10px;
   margin-right: 10px;
   font-weight:10;
-  font-size: 20px;
+  font-size: 15px;
   color: #FFFFFF;
 }
 
 .middle-box h1{
   position: relative;
   top: 5%;
-  left: 10%;
+  left: 4%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 28px;
   color: #FFFFFF;
 }
 
