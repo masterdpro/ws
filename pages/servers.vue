@@ -31,8 +31,7 @@ function newDoc() {
           
           <div class="middle-box">
             <h1><a href="https://discord.gg/CD6rS3n2QP">Discord.ca</a></h1>
-
-            <h2></h2>
+            <h2>Official server of the website</h2>
           </div>
           <div class="middle-box">
             <h1><a href="https://discord.gg/G2Egjsn8ys">Pro's & co</a></h1>
