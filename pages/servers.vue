@@ -28,7 +28,6 @@ function newDoc() {
     <img src="../image/Backgroundbg-v1.svg">
    </div>
    <div class="box-contain">
-          
           <div class="middle-box">
             <h1><a href="https://discord.gg/CD6rS3n2QP">Discord.ca</a></h1>
             <h2>Official server of the website</h2>
@@ -144,21 +143,20 @@ border-radius: 13px;
 }
 
 .box-contain{
-    position: absolute;
-    width: 90%;
-  top: 50%;
-  left: 10%;
-  display: flex;
+  position: absolute;
+  width: 110vh;
+  top: 30%;
+  left: 20%;
   justify-content: center;
+  display:flex;
     
 }
 
 .middle-box{
-    display: flex;
-    position: relative;
-    left: 100px;
-    top: auto;
-  width: 30%;
+  position: relative;
+  left: 17%;
+  top: 50%;
+  width: 40vh;
   height: 40vh;
   opacity: 0.9;
   background: #27282b;
