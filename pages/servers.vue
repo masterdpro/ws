@@ -24,14 +24,21 @@ function newDoc() {
       </div>
       </div>
     </nav>
-    <div class="is-background">  
-      <img src="../image/Backgroundbg-v1.svg">
-          <h1 class="title"> Welcome</h1>
+    <div class="is-background">  <h1 class="title">Our servers</h1>
+    <img src="../image/Backgroundbg-v1.svg">
+   </div>
+   <div class="box-contain">
+          
           <div class="middle-box">
-            <h1>What's discords.ca ?</h1>
-            <h2>Discords.ca is a simple website with no real purpose. simply made by young dev because he had some time to waste! hope you'll like it ! I also have a <a href="https://discord.gg/Fy4EwEJCpV">discord server called Pro's & co</a> if you want to take a look</h2>
+            <h1><a href="https://discord.gg/CD6rS3n2QP">Discord.ca</a></h1>
+
+            <h2></h2>
           </div>
-    </div>
+          <div class="middle-box">
+            <h1><a href="https://discord.gg/G2Egjsn8ys">Pro's & co</a></h1>
+            <h2></h2>
+          </div>
+   </div>
   </div>
   <footer>
     <a class="moche">Copyright © Discords.ca</a>
@@ -87,12 +94,14 @@ function newDoc() {
   width: 100%;
   height: 100vh;
   overflow: hidden;;
+  z-index: 5;
 }
 
 .is-background img{
 width: 100%;
 height: auto;
 object-fit: cover;
+z-index: 65;
 
 }
 
@@ -135,16 +144,27 @@ border-radius: 13px;
   margin-top: 10px;
 }
 
+.box-contain{
+    position: absolute;
+    width: 90%;
+  top: 50%;
+  left: 10%;
+  display: flex;
+  justify-content: center;
+    
+}
+
 .middle-box{
-  position: absolute;
-  top: 55%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  width: 100vh;
+    display: flex;
+    position: relative;
+    left: 100px;
+    top: auto;
+  width: 30%;
   height: 40vh;
   opacity: 0.9;
   background: #27282b;
   border-radius: 26px;
+  margin-left: 40px;
 }
 
 .middle-box h2{
@@ -158,6 +178,7 @@ border-radius: 13px;
   font-weight:10;
   font-size: 20px;
   color: #FFFFFF;
+  z-index: 2;
 }
 
 .middle-box h1{
@@ -172,7 +193,7 @@ border-radius: 13px;
 }
 
 a{
-  color:#dce3ec;
+  color:#ffffff;
   transition: 0.2s;
 
 }
@@ -307,7 +328,7 @@ a:hover{
 }
 
 a{
-  color:#dce3ec;
+  color:#ffffff;
   transition: 0.2s;
 
 }
