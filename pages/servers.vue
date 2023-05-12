@@ -144,12 +144,11 @@ border-radius: 13px;
 
 .box-contain{
   position: absolute;
-  width: 110vh;
+  width: 90vh;
   top: 30%;
-  left: 20%;
+  left: 15%;
   justify-content: center;
   display:flex;
-    
 }
 
 .middle-box{
@@ -292,11 +291,11 @@ a:hover{
   position: absolute;
   top: 55%;
   left: 48%;
-  width: 55vh;
+  width: 40vh;
   height: 40vh;
   opacity: 0.9;
-  background: #27282b;
   border-radius: 26px;
+  background-color: #FFFF;
 }
 
 .middle-box h2{
@@ -336,4 +335,3 @@ a:hover{
   
 }
 </style>
-
