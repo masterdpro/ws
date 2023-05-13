@@ -180,7 +180,7 @@ border-radius: 13px;
 .middle-box h1{
   position: relative;
   top: 5%;
-  left: 30%;
+  left: 10vh;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -314,7 +314,7 @@ a:hover{
 .middle-box h1{
   position: relative;
   top: 5%;
-  left: 4%;
+  left: 1%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
